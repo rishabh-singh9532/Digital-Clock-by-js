@@ -1,0 +1,32 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: auto; */
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    box-shadow: 15px 15px 30px rgba(0,0,0.1);
+}
+
+
+#clock{
+   font-size: 2.5rem;
+
+}
+
+#date{
+    font-size: 1.2rem;
+}
